@@ -10,7 +10,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     'delta-lake',
     'aws-lambda',
     'aws-lambda-layer',
-    'pandas'
+    'pandas',
   ],
   cdkVersion: '2.73.0',
   majorVersion: 2,
@@ -19,7 +19,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/HsiehShuJeng/deltalake-lambda-layer.git',
   deps: [
     'aws-cdk-lib',
-    'constructs@^10.1.35'
+    'constructs@^10.1.35',
   ],
   devDeps: [
     'aws-cdk-lib',
@@ -52,7 +52,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     packageId: 'Deltalake.Lambda.Layer',
   },
   publishToGo: {
-    moduleName: 'github.com/HsiehShuJeng/deltalake-lambda-layer-go'
-  }
+    moduleName: 'github.com/HsiehShuJeng/deltalake-lambda-layer-go',
+  },
 });
 project.synth();
