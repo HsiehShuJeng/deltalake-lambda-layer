@@ -891,7 +891,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^27":
+"@types/jest@^27.5.2":
   version "27.5.2"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.5.2.tgz#ec49d29d926500ffb9fd22b84262e862049c026c"
   integrity sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==
@@ -1305,7 +1305,7 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws-cdk-lib@2.73.0:
+aws-cdk-lib@^2.73.0:
   version "2.73.0"
   resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.73.0.tgz#1cba582bc36a98d613b1f89680df1b17d71f43f9"
   integrity sha512-r9CUe3R7EThr9U0Eb7kQCK4Ee34TDeMH+bonvGD9rNRRTYDauvAgNCsx4DZYYksPrXLRzWjzVbuXAHaDDzWt+A==
@@ -1778,10 +1778,10 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
-constructs@10.0.5:
-  version "10.0.5"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.5.tgz#48c0402f1b98bbf5664efff74a8015e6e8a9f41e"
-  integrity sha512-IwOwekzrASFC3qt4ozCtV09rteAIAesuCGsW0p+uBfqHd2XcvA5CXqJjgf4eUqm6g8e/noXlVCMDWwC8GaLtrg==
+constructs@^10.1.35:
+  version "10.1.306"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.306.tgz#07c361f56eff42bae9338c65587b9dede4d1f4f6"
+  integrity sha512-7UruYLZLOk7qN9fQRX339iluZnqLVEPg8jSiKmKtehY4Sk0V91AOCe8/YccpYYTsMud3EKha8TT1zJa5SJPQug==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
